@@ -1,0 +1,1 @@
+Logo GitWall: símbolo do Git formado por uma caixa de diamante inclinada, com três círculos conectados por linhas, representando ramificações de código. Entretanto na cor azul em vez de laranja.
