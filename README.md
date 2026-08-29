@@ -33,9 +33,9 @@ const data: PersonData = {
 };
 ```
 
-Preencha seu nome, GitHub e, opcionalmente, LinkedIn.
+Preencha seu nome e seu usuário do GitHub. O LinkedIn é opcional: se você tiver um perfil e quiser adicioná-lo, informe seu usuário no campo `LinkedIn`. Caso não queira adicionar um LinkedIn, remova a linha `LinkedIn` do objeto.
 
-Se preferir, você também pode alterar o campo `role`, por exemplo, para `"Aluna"`.
+Você também pode alterar o campo `role` de acordo com o que preferir. Por exemplo, você pode usar `"Aluno"`, `"Aluna"` ou outro título que faça sentido.
 
 ### 3. Personalize seu card (opcional)
 
@@ -56,7 +56,7 @@ git add src/people/
 git commit -m "Add João Silva's card"
 ```
 
-## 5. Envie um Pull Request
+### 5. Envie um Pull Request
 
 Por fim, envie um Pull Request para este repositório.
 
