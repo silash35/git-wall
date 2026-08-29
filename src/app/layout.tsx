@@ -6,7 +6,7 @@ import Footer from "@/src/components/Footer";
 import Header from "@/src/components/Header";
 
 export const viewport: Viewport = {
-  themeColor: "black",
+  themeColor: "#000510",
 };
 
 import { Ubuntu } from "next/font/google";
