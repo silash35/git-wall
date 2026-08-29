@@ -1,0 +1,14 @@
+name: ESLint
+
+on: [push, pull_request]
+
+jobs:
+  ESLint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v7
+      - name: Install Node and PNPM
+        uses: pnpm/setup@v2
+      - name: Run linter
+        run: pnpm lint

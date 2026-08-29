@@ -1,0 +1,14 @@
+name: TypeScript
+
+on: [push, pull_request]
+
+jobs:
+  TypeScript:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v7
+      - name: Install Node and PNPM
+        uses: pnpm/setup@v2
+      - name: Run Type Checking
+        run: pnpm tsc
