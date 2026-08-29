@@ -24,11 +24,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL as string),
   icons: {
     shortcut: "/favicon.ico",
-    other: {
-      rel: "mask-icon",
-      url: "/icons/safari-pinned-tab.svg",
-      color: "#2c3382",
-    },
   },
 };
 
