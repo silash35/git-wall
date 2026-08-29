@@ -19,7 +19,7 @@ const ubuntu = Ubuntu({
 
 export const metadata: Metadata = {
   title: "GitWall",
-  description: "A website showcasing the participants of a Git course taught by Silas.",
+  description: "Um site que apresenta os participantes de um curso de Git ministrado por Silas.",
   authors: [{ name: "Silas Henrique Alves Araújo" }],
   metadataBase: new URL(process.env.SITE_URL as string),
   icons: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
-  <html className={ubuntu.className} dir="ltr" lang="en">
+  <html className={ubuntu.className} dir="ltr" lang="pt-BR">
     <head>
       <meta content="text/html" httpEquiv="content-type" />
     </head>
