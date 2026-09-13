@@ -27,8 +27,9 @@ const Home = async () => {
       </div>
 
       <p className="mb-8 w-full border-b border-neutral-500 pb-1 text-left text-sm text-neutral-500 sm:text-base">
-        Aqui estão os participantes do Curso de Git e GitHub 2026.1, oferecido na PoliACTA — edição
-        Primavera.
+        Participantes do minicurso{" "}
+        <span className="font-bold">Git Sem Medo: Fundamentos de Controle de Versão</span>,
+        oferecido durante a <span className="font-bold">Poli-Acta&apos;26 Edição Primavera</span>.
       </p>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">

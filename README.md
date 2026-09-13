@@ -1,6 +1,6 @@
 # GitWall
 
-A website showcasing the participants of the 2026 Git course at Poli-ACTA, Escola Politécnica da UFBA.
+A website showcasing the participants of the Git course at Poli-Acta'26, Escola Politécnica da UFBA.
 
 Inspired by [GitTrainingWall](https://github.com/BrOrlandi/GitTrainingWall).
 
@@ -8,7 +8,7 @@ Inspired by [GitTrainingWall](https://github.com/BrOrlandi/GitTrainingWall).
 
 ## Como adicionar seu perfil
 
-Você participou do Curso de Git e GitHub 2026.1? Então pode adicionar seu perfil à página da turma!
+Você participou do Curso de Git e GitHub durante a Poli-Acta'26 Edição Primavera? Então pode adicionar seu perfil à página da turma!
 
 ### 1. Copie o arquivo de exemplo
 
@@ -17,7 +17,7 @@ Na pasta `src/people`, você encontrará um arquivo de exemplo.
 Copie esse arquivo e renomeie-o para o seu nome. Por exemplo:
 
 ```text
-src/people/joaoSilva.tsx
+src/people/JoaoSilva.tsx
 ```
 
 ### 2. Preencha seus dados
