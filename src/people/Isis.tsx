@@ -5,7 +5,7 @@ import type { PersonData } from "@/src/utils/types";
 
 const data: PersonData = {
   name: "Isis",
-  role: "Aluno",
+  role: "Aluna",
   GitHub: "isis-ppp",
 };
 

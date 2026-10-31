@@ -5,9 +5,9 @@ import type { PersonData } from "@/src/utils/types";
 
 const data: PersonData = {
   name: "Edvane Salomão",
-  role: "Aluno", // Opcionalmente, você pode ajustar o papel para "Aluna", ou outro título que preferir.
-  GitHub: "Salomaosouza-developer", // Substitua pelo seu usuário do GitHub, sem o @
-  LinkedIn: "edvane-salomão-santos-de-souza-5495b0248", // Substitua pelo seu usuário do LinkedIn, sem o @. Você pode remover esta linha se não tiver LinkedIn.
+  role: "Aluno",
+  GitHub: "Salomaosouza-developer",
+  LinkedIn: "edvane-salomão-santos-de-souza-5495b0248",
 };
 
 const PersonCard = () => (
